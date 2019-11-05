@@ -1,0 +1,30 @@
+.gallery-photo {
+    width: 200px;
+    height: 200px;
+}
+
+#photo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.photo-container {
+    margin: 5px;
+}
+
+#modal {
+    width: 70%;
+    height: 70%;
+    display: block;
+    visibility: hidden;
+}
+.title {
+    text-align: center;
+}
+
+body {
+    background: lightgrey;
+}
